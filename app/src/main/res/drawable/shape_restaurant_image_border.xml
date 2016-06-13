@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <solid android:color="#ffffff" />
+
+    <stroke android:width="@dimen/list_item_restaurant_image_border"
+            android:color="@color/colorPrimaryDark"/>
+
+    <padding android:left="@dimen/list_item_restaurant_image_border"
+             android:top="@dimen/list_item_restaurant_image_border"
+             android:right="@dimen/list_item_restaurant_image_border"
+             android:bottom="@dimen/list_item_restaurant_image_border" />
+</shape>

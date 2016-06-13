@@ -6,7 +6,15 @@
 
     <!-- Activity Main -->
     <dimen name="title_separator_height">2dp</dimen>
+    <dimen name="title_separator_height_neg">-2dp</dimen>
     <dimen name="title_separator_margin">48dp</dimen>
     <dimen name="title_margin">12dp</dimen>
+
+    <!-- Restaurant List Item -->
+    <dimen name="list_item_restaurant_margin">4dp</dimen>
+    <dimen name="list_item_restaurant_padding">12dp</dimen>
+    <dimen name="list_item_restaurant_image_border">3dp</dimen>
+    <dimen name="list_item_restaurant_image_height">196dp</dimen>
+    <dimen name="list_item_restaurant_geo_size">48dp</dimen>
 
 </resources>

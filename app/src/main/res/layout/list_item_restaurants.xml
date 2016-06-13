@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/list_item_restaurant_padding">
+
+    <ImageView
+        android:id="@+id/item_restaurant_picture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_restaurant_image_height"
+        android:background="@drawable/shape_restaurant_image_border"/>
+
+    <ImageButton
+        android:id="@+id/item_restaurant_geo_button"
+        android:layout_width="@dimen/list_item_restaurant_geo_size"
+        android:layout_height="@dimen/list_item_restaurant_geo_size"
+        android:layout_alignBottom="@+id/item_restaurant_picture"
+        android:src="@drawable/ic_map_marker_white_36dp"
+        android:background="@drawable/selector_restaurant_geo"/>
+
+    <TextView
+        android:id="@+id/item_restaurant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_restaurant_picture"
+        android:layout_marginTop="@dimen/list_item_restaurant_margin"
+        android:fontFamily="sans-serif-light"
+        android:text="TITULO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/item_restaurant_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_restaurant_name"
+        android:layout_marginTop="@dimen/list_item_restaurant_margin"
+        android:fontFamily="sans-serif-thin"
+        android:text="LOCALIZA'C~AO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_chevron_right_36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
