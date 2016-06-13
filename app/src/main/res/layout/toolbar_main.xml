@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimaryDark"
+    app:layout_collapseMode="pin"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:popupTheme="@style/AppTheme.AppBarOverlay">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Centered Logo -->
+        <ImageView
+            android:id="@+id/toolbar_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="whaaat??????????????????????"
+            android:src="@drawable/ic_logo_wide"
+            android:scaleType="fitCenter"/>
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/btn_search"-->
+            <!--android:layout_width="?attr/actionBarSize"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:layout_gravity="end"-->
+            <!--android:src="@android:drawable/btn_star"-->
+            <!--style="@style/Widget.AppCompat.ActionButton"-->
+            <!--android:contentDescription="whaaat??????????????????????"/>-->
+
+    </FrameLayout>
+</android.support.v7.widget.Toolbar>
