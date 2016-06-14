@@ -9,4 +9,5 @@
              android:top="@dimen/list_item_restaurant_image_border"
              android:right="@dimen/list_item_restaurant_image_border"
              android:bottom="@dimen/list_item_restaurant_image_border" />
+
 </shape>

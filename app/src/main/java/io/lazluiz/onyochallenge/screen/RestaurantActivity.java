@@ -1,4 +1,4 @@
-package io.lazluiz.onyochallenge;
+package io.lazluiz.onyochallenge.screen;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -9,6 +9,8 @@ import android.support.v7.widget.SearchView;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import io.lazluiz.onyochallenge.R;
 
 /**
  * Created by Luiz F. Lazzarin on 13/06/2016.
