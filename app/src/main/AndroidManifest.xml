@@ -21,6 +21,15 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".screen.CompanyActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".screen.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".screen.MainActivity"/>
+        </activity>
+
     </application>
 
 </manifest>

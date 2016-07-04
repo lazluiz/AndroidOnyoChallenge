@@ -1,6 +1,47 @@
 <resources>
     <string name="app_name">OnyoChallenge</string>
+    <string name="app_logo_title">Baked Potato</string>
 
     <!-- Activity Main -->
     <string name="title_activity_main">ESCOLHA O SEU RESTAURANTE</string>
+
+    <!-- Activity Company -->
+    <string name="tab_company_home_title">HOME</string>
+    <string name="tab_company_categories_title">CARDÁPIO</string>
+    <string name="tab_company_redeem_title">RESGATE</string>
+    <string name="fragment_categories_title">CATEGORIAS</string>
+    <string name="fragment_home_challenge_title">CHALLENGE</string>
+    <string name="fragment_home_musts_title">MUST HAVE</string>
+    <string name="fragment_home_optional_title">OPTIONAL</string>
+    <string name="fragment_home_more_title">MORE</string>
+
+    <string name="fragment_home_challenge_text">
+        The main goal of the challenge is to create an Android app to fetch the API information of
+        companies and categories and show them according to the provided screenshots on GitHub.
+    </string>
+    <string name="fragment_home_musts_text">
+        Customized ActionBar\n
+        Company list\n
+        Category list\n
+        Asynchronous and on demand image loading\n
+        Dependency management system\n
+        Minimum SDK version must be 15
+    </string>
+    <string name="fragment_home_optional_text">
+        Tabs\n
+        API Communication Framework\n
+        ORM Framework\n
+        Image loading and cache Framework\n
+        Annotation/Dependency Injection Framework\n
+        Unit Testing\n
+        Functional tests
+    </string>
+    <string name="fragment_home_more_text">
+        More details about the challenge here:\n
+        <a href="https://github.com/Onyo/onyo-challenges/blob/master/android-challenge.md">GitHub</a>.
+    </string>
+
+
+    <!-- Toolbar -->
+    <string name="toolbar_search_title">Procurar</string>
 </resources>

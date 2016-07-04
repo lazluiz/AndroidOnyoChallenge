@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".screen.CompanyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- CHALLENGE -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/title_margin"
+                android:layout_marginTop="@dimen/title_margin"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/fragment_home_challenge_title"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorPrimaryDark"/>
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_separator_height"
+            android:layout_marginLeft="@dimen/title_separator_margin"
+            android:layout_marginRight="@dimen/title_separator_margin"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_home_margin"
+            android:gravity="center"
+            android:text="@string/fragment_home_challenge_text"/>
+
+        <!-- MUSTS -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/title_margin"
+                android:layout_marginTop="@dimen/title_margin"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/fragment_home_musts_title"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorPrimaryDark"/>
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_separator_height"
+            android:layout_marginLeft="@dimen/title_separator_margin"
+            android:layout_marginRight="@dimen/title_separator_margin"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_home_margin"
+            android:gravity="center"
+            android:text="@string/fragment_home_musts_text"/>
+
+        <!-- OPTIONAL -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/title_margin"
+                android:layout_marginTop="@dimen/title_margin"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/fragment_home_optional_title"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorPrimaryDark"/>
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_separator_height"
+            android:layout_marginLeft="@dimen/title_separator_margin"
+            android:layout_marginRight="@dimen/title_separator_margin"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_home_margin"
+            android:gravity="center"
+            android:text="@string/fragment_home_optional_text"/>
+
+        <!-- MORE -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/title_margin"
+                android:layout_marginTop="@dimen/title_margin"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/fragment_home_more_title"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorPrimaryDark"/>
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_separator_height"
+            android:layout_marginLeft="@dimen/title_separator_margin"
+            android:layout_marginRight="@dimen/title_separator_margin"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_home_margin"
+            android:paddingBottom="50dp"
+            android:gravity="center"
+            android:text="@string/fragment_home_more_text"
+            android:autoLink="web"/>
+
+    </LinearLayout>
+
+</ScrollView>

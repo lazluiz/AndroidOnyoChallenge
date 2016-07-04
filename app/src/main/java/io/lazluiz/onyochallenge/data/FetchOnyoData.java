@@ -10,6 +10,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import io.lazluiz.onyochallenge.model.Category;
 import io.lazluiz.onyochallenge.model.Company;
 import io.realm.Realm;
 
@@ -67,7 +68,7 @@ public class FetchOnyoData {
             final String ONYO_CATEGORIES = "categories";
 
             final JSONArray companies = o.getJSONArray(ONYO_COMPANIES);
-            JSONArray categories = o.getJSONArray(ONYO_CATEGORIES);
+            final JSONArray categories = o.getJSONArray(ONYO_CATEGORIES);
 
             Log.i(LOG_TAG, companies.toString());
             Log.i(LOG_TAG, categories.toString());
@@ -77,6 +78,7 @@ public class FetchOnyoData {
                 public void execute(Realm realm) {
                     // Persist
                     realm.createOrUpdateAllFromJson(Company.class, companies);
+                    realm.createOrUpdateAllFromJson(Category.class, categories);
 
                     // Set time to SharedPreferences
                     SharedPreferences.Editor spe = PreferenceManager.getDefaultSharedPreferences(mContext).edit();

@@ -51,7 +51,10 @@ public class MainActivity extends AppCompatActivity {
         mCompaniesAdapter.setOnItemClickListener(new CompaniesAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(Company r) {
-                Toast.makeText(MainActivity.this, "JUST DO IT", Toast.LENGTH_SHORT).show();
+                Intent it = new Intent(MainActivity.this, CompanyActivity.class);
+                // todo put extra
+
+                startActivity(it);
             }
         });
         mCompaniesAdapter.setOnMapClickListener(new CompaniesAdapter.OnMapClickListener() {

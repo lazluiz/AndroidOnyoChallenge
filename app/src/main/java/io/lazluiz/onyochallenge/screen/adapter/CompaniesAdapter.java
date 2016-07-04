@@ -37,7 +37,7 @@ public class CompaniesAdapter extends AbstractListAdapter<Company, CompaniesAdap
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         return new ViewHolder(mInflater
-                .inflate(R.layout.list_item_restaurants, viewGroup, false));
+                .inflate(R.layout.list_item_companies, viewGroup, false));
     }
 
     @Override
@@ -82,12 +82,12 @@ public class CompaniesAdapter extends AbstractListAdapter<Company, CompaniesAdap
             });
         }
 
-        public void bind(Company r, int position) {
-            mCompany = r;
-            mTextName.setText(r.getDisplayName());
-            mTextAddress.setText(r.getAddress());
+        public void bind(Company data, int position) {
+            mCompany = data;
+            mTextName.setText(data.getDisplayName());
+            mTextAddress.setText(data.getAddress());
 
-            Image image = r.getImage().where().equalTo("context", "company-main").findFirst();
+            Image image = data.getImage().where().equalTo("context", "company-main").findFirst();
             Glide.with(mContext).load(image.getUrl()).into(mImageMain);
 
             mRoot.setBackgroundColor(ContextCompat.getColor(mContext,

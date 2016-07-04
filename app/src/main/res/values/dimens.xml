@@ -10,12 +10,20 @@
     <dimen name="title_separator_margin">48dp</dimen>
     <dimen name="title_margin">12dp</dimen>
 
-    <!-- Restaurant List Item -->
-    <dimen name="list_item_restaurant_margin">4dp</dimen>
-    <dimen name="list_item_restaurant_padding">12dp</dimen>
-    <dimen name="list_item_restaurant_image_border">3dp</dimen>
-    <dimen name="list_item_restaurant_image_height">196dp</dimen>
-    <dimen name="list_item_restaurant_geo_size">48dp</dimen>
-    <dimen name="list_item_restaurant_text_size">12sp</dimen>
+    <!-- Companies List Item -->
+    <dimen name="list_item_company_margin">4dp</dimen>
+    <dimen name="list_item_company_padding">12dp</dimen>
+    <dimen name="list_item_company_image_border">3dp</dimen>
+    <dimen name="list_item_company_image_height">196dp</dimen>
+    <dimen name="list_item_company_geo_size">48dp</dimen>
+    <dimen name="list_item_company_text_size">12sp</dimen>
+
+
+    <!-- Activity Company -->
+    <dimen name="text_home_margin">16dp</dimen>
+
+    <!-- Categories List Item -->
+    <dimen name="list_item_category_image_height">172dp</dimen>
+    <dimen name="list_item_category_image_height_min">138dp</dimen>
 
 </resources>

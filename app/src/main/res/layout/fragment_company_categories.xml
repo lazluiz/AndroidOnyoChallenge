@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/transparent"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".screen.MainActivity"
-    tools:showIn="@layout/activity_main">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              tools:context=".screen.CompanyActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/gray">
+        android:background="@android:color/white">
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,7 +20,7 @@
             android:layout_marginBottom="@dimen/title_margin"
             android:layout_marginTop="@dimen/title_margin"
             android:fontFamily="sans-serif-light"
-            android:text="@string/title_activity_main"
+            android:text="@string/fragment_categories_title"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/colorPrimaryDark"/>
     </FrameLayout>
